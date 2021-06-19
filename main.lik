@@ -1,0 +1,9 @@
+Version: 3.0
+Options: tsk
+Obj: "main.obj"
+Output: "C:\projects\punitapichan\dump_bootrom\firmware.bin"
+Locate: RamCode in "main.obj" at A000 linkat 100
+;Align: RamCode in "main.obj" with 0 
+;Locate: TEXT in "main.obj" at 9049 
+;Align: TEXT in "main.obj" with 0 
+;Locate: __sn_init_table at 9040 

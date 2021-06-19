@@ -1,0 +1,6 @@
+*.obj
+*.sym
+*.map
+*.sbm
+*.smy
+*.bin
