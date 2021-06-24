@@ -487,11 +487,9 @@ SleepHalfSec:	.proc
 	r2 = 48000					// Set inner counter
 ?inner:
 	r2 -= 1						// Decrement inner counter
-	cmp r2, 0
 	jnz ?inner					// Loop inner until zero
 
 	r1 -= 1						// Decrement outer counter
-	cmp r1, 0
 	jnz ?outer					// Loop outer until zero
 
 	retf
